@@ -10,5 +10,5 @@ setup (name = 'neoscrypt',
        description = 'Bindings for the NeoScrypt proof-of-work algorithm',
        author = 'John Doering',
        author_email = 'ghostlander@phoenixcoin.org',
-       url = 'https://github.com/ghostlander/NeoScrypt',
+       url = 'https://github.com/m0r4k/neoscrypt',
        ext_modules = [neoscrypt_module])
