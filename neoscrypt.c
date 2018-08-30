@@ -50,6 +50,7 @@ typedef unsigned int  bool;
 #define MAX(a, b) ((a) > (b) ? a : b)
 */
 
+/*
 #define MIN(a,b) \
    ({ __typeof__ (a) _a = (a); \
        __typeof__ (b) _b = (b); \
@@ -59,7 +60,7 @@ typedef unsigned int  bool;
    ({ __typeof__ (a) _a = (a); \
        __typeof__ (b) _b = (b); \
      _a < _b ? _a : _b; })
-
+*/
 
 /* NeoScrypt */
 
