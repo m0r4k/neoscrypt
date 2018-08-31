@@ -6,9 +6,9 @@ neoscrypt_module = Extension('neoscrypt',
                                include_dirs=['.'])
 
 setup (name = 'neoscrypt',
-       version = '1.0',
+       version = '1.1',
        description = 'Bindings for the NeoScrypt proof-of-work algorithm',
        author = 'John Doering',
        author_email = 'ghostlander@phoenixcoin.org',
-       url = 'https://github.com/m0r4k/neoscrypt',
+       url = 'https://github.com/ghostlander/NeoScrypt',
        ext_modules = [neoscrypt_module])

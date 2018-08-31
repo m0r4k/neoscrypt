@@ -17,9 +17,9 @@ static PyObject *neoscrypt_gost_getpowhash(PyObject *self, PyObject *args)
     output = PyMem_Malloc(32);
 
 #if PY_MAJOR_VERSION >= 3
-    neoscrypt((unsigned char *)PyBytes_AsString((PyObject*) input), output);
+    neoscrypt((unsigned char *)PyBytes_AsString((PyObject*) input), (unsigned char *) output);
 #else
-    neoscrypt((unsigned char *)PyString_AsString((PyObject*) input), output);
+    neoscrypt((unsigned char *)PyString_AsString((PyObject*) input), (unsigned char*) output);
 #endif
     Py_DECREF(input);
 #if PY_MAJOR_VERSION >= 3
