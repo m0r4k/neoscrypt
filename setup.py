@@ -2,8 +2,7 @@ from setuptools import setup, Extension
 
 neoscrypt_module = Extension('neoscrypt',
                              sources=['neoscryptmodule.c',
-                                      'neoscrypt.c'],
-                             library_dirs=library_dirs)
+                                      'neoscrypt.c'])
 
 setup (name = 'neoscrypt',
        version = '1.1',
