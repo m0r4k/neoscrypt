@@ -1,4 +1,12 @@
+#ifdef __cplusplus
+extern "C" {
+#endif
+
 void neoscrypt(const unsigned char *password, unsigned char *output);
+
+#ifdef __cplusplus
+}
+#endif
 
 typedef unsigned long long ullong;
 typedef signed long long llong;
