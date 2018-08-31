@@ -1,10 +1,4 @@
-<<<<<<< HEAD
 void neoscrypt(const unsigned char *password, unsigned char *output);
-=======
-#include<stdint.h>
-
-void neoscrypt(const unsigned char *input, unsigned char *output);
->>>>>>> 8a0594d024773c01b5d1accdbd6bc1427cafeb99
 
 typedef unsigned long long ullong;
 typedef signed long long llong;

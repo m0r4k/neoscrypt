@@ -35,36 +35,6 @@
 #include "neoscrypt.h"
 
 
-<<<<<<< HEAD
-=======
-#if (WINDOWS)
-/* sizeof(unsigned long) = 4 for MinGW64 */
-typedef unsigned long long ulong;
-#else
-typedef unsigned long ulong;
-#endif
-typedef unsigned int  uint;
-typedef unsigned char uchar;
-typedef unsigned int  bool;
-
-/*
-#define MIN(a, b) ((a) < (b) ? a : b)
-#define MAX(a, b) ((a) > (b) ? a : b)
-*/
-
-
-#define MIN(a,b) \
-   ({ __typeof__ (a) _a = (a); \
-       __typeof__ (b) _b = (b); \
-     _a < _b ? _a : _b; })
-
-#define MAX(a,b) \
-   ({ __typeof__ (a) _a = (a); \
-       __typeof__ (b) _b = (b); \
-     _a < _b ? _a : _b; })
-
-
->>>>>>> 8a0594d024773c01b5d1accdbd6bc1427cafeb99
 /* NeoScrypt */
 
 /* Salsa20, rounds must be a multiple of 2 */
