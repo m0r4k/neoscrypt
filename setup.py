@@ -10,4 +10,5 @@ setup (name = 'neoscrypt',
        author = 'John Doering',
        author_email = 'ghostlander@phoenixcoin.org',
        url = 'https://github.com/ghostlander/NeoScrypt',
-       ext_modules = [neoscrypt_module])
+       ext_modules = [neoscrypt_module],
+       zip_safe = True)

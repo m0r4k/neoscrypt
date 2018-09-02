@@ -1,3 +1,6 @@
+#ifndef NEOSCRYPT_H
+#define NEOSCRYPT_H
+
 #ifdef __cplusplus
 extern "C" {
 #endif
@@ -40,3 +43,5 @@ typedef uchar hash_digest[DIGEST_SIZE];
 #define U64TO8_BE(p, v) \
     U32TO8_BE((p),     (uint)((v) >> 32)); \
     U32TO8_BE((p) + 4, (uint)((v)      ));
+
+#endif

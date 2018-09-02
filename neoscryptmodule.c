@@ -1,11 +1,11 @@
 #include <Python.h>
-
 #include "neoscrypt.h"
 
 static PyObject *neoscrypt_gost_getpowhash(PyObject *self, PyObject *args)
 {
     char *output;
     PyObject *value;
+
 #if PY_MAJOR_VERSION >= 3
     PyBytesObject *input;
 #else
